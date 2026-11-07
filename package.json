@@ -1,0 +1,13 @@
+{
+  "name": "famone-reverse-ai",
+  "version": "1.0.0",
+  "description": "FAMONEMEDIA Reverse AI - Local CPU Video Reverse-Engineering & Timeline Reconstruction",
+  "scripts": {
+    "dev:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "dev:frontend": "cd frontend && npm run dev",
+    "test:backend": "python tests/test_backend.py",
+    "sample": "python scripts/create_sample_video.py"
+  },
+  "author": "FAMONEMEDIA",
+  "license": "MIT"
+}
